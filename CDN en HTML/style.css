@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background-color: rgb(31, 31, 31);
+}
+#titulo {
+    color: rgb(221, 221, 221);
+
+}
+
+.texto {
+    color: rgb(221, 221, 221);
+    font-size: 20px;
+}
+
+.botones {
+    padding: 30px 75px;
+    background-color: transparent;
+    border: none;
+}
+#iniciar {
+    background-image: url(iniciar.png);
+    transition: 0.2s;
+    cursor: pointer;
+}
+#iniciar:hover {
+    transform: scale(1.05);
+}
+#iniciar:active {
+    transform: scale(0.95);
+}
+#detener {
+    background-image: url(Detener.png);
+    cursor: pointer;
+    transition: 0.2s;
+}
+#detener:hover {
+    transform: scale(1.05);
+}
+#detener:active {
+    transform: scale(0.95);
+}
+
+#contenedor {
+    padding: 240px 349.5px;
+    background-image: url(frames/1.png);
+}
