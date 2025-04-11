@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <head>
-    <title>Cara de Nada</title>
-    <meta charset="UTF-8">
+    <title>Cara de nada</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <div>
+        <h1 id="titulo">Cara de Nada en HTML</h1>
+    </div>
+    <p class="texto">Presiona el boton de iniciar para iniciar Cara de Nada</p>
+    <br>
+    <div id="contenedor"></div>
+    <div id="LosBotones">
+        <button class="botones" id="iniciar" onmousedown="reproducirAudio()" onclick="reproducir()"></button>
+        <button class="botones" id="detener" onmousedown="reproducirAudio()" onclick="detener()"></button>
+    </div>
 </body>
 <script src="src/main.js"></script>
