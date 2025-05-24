@@ -1,0 +1,1 @@
+<?php echo "VULNERABLE_TO_RFI"; ?>
